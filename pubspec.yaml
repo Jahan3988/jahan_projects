@@ -1,0 +1,29 @@
+name: volvo_engine
+description: "Volvo Engine Speedometer App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.2.1
+  syncfusion_flutter_gauges: ^24.1.41
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/volvo_engine.mp3
+    - assets/sounds/volvo_engine2.mp3
+    - assets/sounds/volvo_horn.mp3
